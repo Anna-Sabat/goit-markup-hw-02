@@ -1,6 +1,5 @@
 body {
-    font-family: "Roboto", "Roboto Light", "Roboto Light", "Roboto Regular" sans-serif;
-    second-family: "Raleway", sans-serif;
+    font-family: "Roboto" sans-serif;
     font-style: normal;
     font-weight:400, 500, 700;
     font-display: swap;
@@ -20,7 +19,7 @@ ul, ol {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -30,8 +29,7 @@ ul, ol {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
+    line-height: 1.17;
     text-transform: uppercase;
     color: #2e2f42;
 }
@@ -40,11 +38,11 @@ ul, ol {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
 color: #404BBF;
 }
 
@@ -58,9 +56,11 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal
 }
 
-.address:hover {
+.address:hover,
+.address:focus {
     color: #404BBF
 }
 
@@ -73,29 +73,24 @@ background: #2e2f42;
 }
 
 .title {
+font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
-letter-spacing: 0.02em;
+line-height: 1.07;
 text-align: center;
 color: #fff;
 }
 
 .button  {
-display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+font-family: "Roboto", sans-serif;
 background-color: #4d5ae5;
-font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
 background-color: #404BBF;
 }
 
@@ -108,7 +103,6 @@ background-color:#4D5AE5;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
@@ -116,28 +110,26 @@ color: #2e2f42;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 
 .section-team {
-background-color:#fafafa;
+background-color: #F4F4FD
 }
 
 .our-team {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
-letter-spacing: 0.02em;
+line-height: 1.11;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .name {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
@@ -145,7 +137,6 @@ color: #2e2f42;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 
@@ -153,24 +144,22 @@ color: #434455;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+background-color: #FFFFFF;
 }
 
 .projects {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.project-text {
+.projects-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 
@@ -182,8 +171,6 @@ background: #2e2f42;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color: #f4f4fd;
 }
 
@@ -191,7 +178,6 @@ color: #f4f4fd;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #f4f4fd;
 }
 
